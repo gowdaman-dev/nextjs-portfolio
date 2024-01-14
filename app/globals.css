@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    scroll-behavior: smooth;
+}
+:root {
+    --whitebg: #ffffff;
+    --white50: rgba(255, 255, 255, 0.5);
+}
+
+.service-home {
+    background: url('../public/servicebg.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.card-service {
+    box-sizing: border-box;
+    width: 416px;
+    height: 508px;
+    background: rgba(104, 104, 104, 0.2);
+    backdrop-filter: blur(7.5px);
+}
+.ham-bars{
+    height: 2px;
+}
